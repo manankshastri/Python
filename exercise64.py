@@ -1,3 +1,4 @@
+#function that returns the first n primes
 def is_prime(n, l):
     count = 0
     for k in range(2, n):
