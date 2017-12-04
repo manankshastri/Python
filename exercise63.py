@@ -1,3 +1,4 @@
+# returns all the primes upto n 
 def is_prime(n):
   for k in range(2,n):
       prime = True
