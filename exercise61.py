@@ -1,3 +1,4 @@
+#function to check if a number is prime or not
 def is_prime(n):
     if (n>1):
         for i in range(2,n):
