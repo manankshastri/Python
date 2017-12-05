@@ -1,10 +1,12 @@
-def pd(n):                      #function using iteration
+#function using iteration
+def pd(n):                      
     prod =1
     for i in n:
         prod = prod *i
     return prod
 
-def pd1(n):                     #function using recursion
+#function using recursion
+def pd1(n):                     
     if not n:
         return 1
     return n[0] * pd1(n[1:])
