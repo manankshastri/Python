@@ -1,3 +1,4 @@
+#function to find emails in a text file
 import re
 
 h = open("C:\\emails.txt", "r")
