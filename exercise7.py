@@ -1,11 +1,14 @@
-def list(n):                   #function to print the list
+#function to print the list
+def list(n):                   
     return n
 
-def list_reverse(n):           #function to print the reverse of a list
+#function to print the reverse of a list
+def list_reverse(n):           
     n.reverse()
     return n
 
-def list_count(n):             #function to print the length of the list
+#function to print the length of the list
+def list_count(n):             
     count =0
     for i in n:
         count+=1
