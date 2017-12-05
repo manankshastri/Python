@@ -1,3 +1,4 @@
+#changes the fist element of the list and returns the list
 def set_first_elem_to_zero(l):
     l[0] = 0
     return l
