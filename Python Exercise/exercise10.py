@@ -10,4 +10,4 @@ py.plot(x,y,'k--')      #plots the function, 'k--' is the line with color - blac
 py.xlabel('INTERVAL')   #for naming x-axis
 py.ylabel('FUNCTION - f(x)')      #for naming y-axis
 py.title('PLOTTING A FUNCTION USING \'matplotlib\'')    #for naming the title of the graph
-py.show()               #to plot the function
+py.show()               #to show the graph/plot
