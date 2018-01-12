@@ -3,8 +3,7 @@ import turtle
 import random
 
 def draw_square():
-    # random colors
-    col = ["red","white","blue","yellow","green"]
+    col = ["red","white","blue","yellow","green"]  # random colors
     window = turtle.Screen()
     
     # setting the window background to black
